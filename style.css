@@ -1,0 +1,35 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: black; 
+}
+
+.card-style{
+    margin: 200px auto;
+    min-width: 20%;
+    min-height: 40vh;
+    border-radius: 20px;
+    background: linear-gradient(10deg,hsl(216, 12%, 8%) 50%, hsl(213, 19%, 18%) 50%)
+}
+
+.star-img{
+    
+}
+
+.rating-h3{
+    color: white;
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+.rating-text{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rating-numbers{
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-btn{
+    background-color: hsl(25, 97%, 53%);
+}
