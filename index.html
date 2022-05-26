@@ -22,14 +22,16 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="card card-style" style="width: 18rem;" >
-    <div class="card-body">
-      <img class="star-img" src="./images/icon-star.svg" alt="">
-      <h3 class="card-title rating-h3">How did we do?</h3>
-      <p class="card-text rating-text">Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!</p>
-      <p class="card-text rating-numbers">1 2 3 4 5</p>  
-      <a href="#" class="btn btn-primary rating-btn">Submit</a>
+  <div class="rating-div">
+    <div class="card card-style" style="width: 18rem;" >
+      <div class="card-body">
+        <img class="star-img" src="./images/icon-star.svg" alt="">
+        <h2 class="card-title rating-h2">How did we do?</h2>
+        <p class="card-text rating-text">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <p class="card-text numbers-position"><span class="rating-numbers">1</span><span class="rating-numbers">2</span><span class="rating-numbers">3</span><span class="rating-numbers">4</span><span class="rating-numbers">5</span></p>  
+        <a href="#" class="btn btn-primary rating-btn">SUBMIT</a>
+      </div>
     </div>
   </div>
 
@@ -37,13 +39,15 @@
 
   <!-- Thank you state start -->
 
-  <div class="card card-style" style="width: 18rem;" hidden>
-    <div class="card-body">
-      <img class="star-image" src="./images/icon-star.svg" alt="star-icon">
-      <p class="card-text">You selected <!-- Add rating here --> out of 5</p>
-      <h5 class="card-title">Thank you!</h5>
-      <p class="card-text">We appreciate you taking the time to give a rating. If you ever need more support, 
-        don’t hesitate to get in touch!</p>
+  <div class="thankyou-div">
+    <div class="card card-style" style="width: 18rem;" >
+      <div class="card-body card-thank">
+        <img class="phone-image" src="./images/illustration-thank-you.svg" alt="star-icon">
+        <div class="thanks-border"><p class="thanks-text">You selected <span class="thanks-choice">0</span> out of 5</p></div>
+        <h3 class="card-title rating-h3">Thank you!</h3>
+        <p class="card-text thankyou-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </div>
     </div>
   </div>
 
@@ -56,5 +60,6 @@
     Coded by <a href="https://github.com/thaicamarelli">Thainá Camarelli</a>.
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 </html>

@@ -5,31 +5,115 @@ body{
 
 .card-style{
     margin: 200px auto;
-    min-width: 20%;
+    min-width: 27rem;
     min-height: 40vh;
-    border-radius: 20px;
-    background: linear-gradient(10deg,hsl(216, 12%, 8%) 50%, hsl(213, 19%, 18%) 50%)
+    border-radius: 30px;
+    /* background:hsl(216, 12%, 8%); */
+    background: linear-gradient(180deg, rgb(30, 36, 43) 0%, rgb(23, 30, 40) 100%);
 }
 
 .star-img{
-    
+    border-style: solid;
+    border-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 12px;
+    margin: 20px 20px 30px 20px;
 }
 
-.rating-h3{
+.rating-h2{
     color: white;
     font-weight: 700;
-    /* font-size: 20px; */
+    padding: 5px 20px;
 }
 .rating-text{
     color: hsl(217, 12%, 63%);
     font-size: 15px;
     font-weight: 400;
+    padding: 0 20px;
+}
+
+.numbers-position{
+    margin: 40px 5px;
 }
 
 .rating-numbers{
-    color: hsl(217, 12%, 63%);
+    color: white;
+    border-style: solid;
+    border-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    padding: 12px 20px;
+    margin: 40px 10px;
+}
+
+.rating-numbers:hover{
+    border-color: hsl(217, 12%, 63%);
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.rating-numbers-active{
+    border-color: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rating-numbers-active:hover{
+    border-color: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
 }
 
 .rating-btn{
     background-color: hsl(25, 97%, 53%);
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.rating-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+/* Thank you */
+.card-thank{
+    text-align: center;
+}
+.phone-image{
+    padding: 25px;
+}
+
+.thanks-text{
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.thanks-border{
+    display: inline-block;
+    border-color: hsl(213, 19%, 18%);
+    border-radius: 900px;
+    padding: 1px 1px;
+    height: 30px;
+    background-color: hsl(217deg, 12%, 63%, 0.062);
+}
+
+.rating-h3{
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.thankyou-text{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 30px 30px;
 }
